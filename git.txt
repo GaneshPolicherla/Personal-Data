@@ -1,0 +1,185 @@
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ git clone https://github.com/GaneshPolicherla/branch-1994.git
+Cloning into 'branch-1994'...
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ../../.VirtualBox/
+        ../../.anaconda/
+        ../../.android/
+        ../../.bash_history
+        ../../.condarc
+        ../../.gitconfig
+        ../../.idlerc/
+        ../../.ipynb_checkpoints/
+        ../../.ipython/
+        ../../.jupyter/
+        ../../.minttyrc
+        ../../.ssh/
+        ../../.vagrant.d/
+        ../../.viminfo
+        ../../3D Objects/
+        ../../Anaconda3/
+        ../../AppData/
+        ../../Contacts/
+        ../
+        ../../Documents/
+        ../../Downloads/
+        ../../Favorites/
+        ../../IntelGraphicsProfiles/
+        ../../Links/
+        ../../MicrosoftEdgeBackups/
+        ../../Music/
+        ../../NTUSER.DAT
+        ../../NTUSER.DAT{977c01a1-6812-11e8-a077-107d1a34635e}.TM.blf
+        ../../NTUSER.DAT{977c01a1-6812-11e8-a077-107d1a34635e}.TMContainer00000000000000000001.regtrans-ms
+        ../../NTUSER.DAT{977c01a1-6812-11e8-a077-107d1a34635e}.TMContainer00000000000000000002.regtrans-ms
+        ../../OneDrive/
+        ../../Pictures/
+        ../../Saved Games/
+        ../../Searches/
+        ../../Videos/
+        ../../VirtualBox VMs/
+        ../../mynotes.ipynb
+        ../../ntuser.dat.LOG1
+        ../../ntuser.dat.LOG2
+        ../../ntuser.ini
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ git ls
+git: 'ls' is not a git command. See 'git --help'.
+
+The most similar command is
+        lfs
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ ls
+branch-1994/
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ pwd
+/c/Users/venkat/Desktop/branch-1994
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ ls
+branch-1994/
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ ls
+branch-1994/
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994 (master)
+$ cd branch-1994/
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ ls
+Details  testts.txt
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ ls
+Details  testts.txt
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        testts.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git add .
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   testts.txt
+
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git commit -m origin master
+error: pathspec 'master' did not match any file(s) known to git.
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git commit -m "new file"
+[master 05d97cc] new file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 testts.txt
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ ls
+Details  testts.txt
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': policherlaganesh@gmail.com
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 308 bytes | 154.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/GaneshPolicherla/branch-1994.git
+   3bdf13a..05d97cc  master -> master
+
+venkat@DESKTOP-C42QR98 MINGW64 ~/Desktop/branch-1994/branch-1994 (master)
+$ git pull
